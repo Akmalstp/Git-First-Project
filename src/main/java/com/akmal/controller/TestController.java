@@ -8,6 +8,6 @@ public class TestController {
 	
 	@PostMapping("\testPath")
 	public String testMethod() {	
-		return "";
+		return "This reply is from controller!";
 	}
 }
